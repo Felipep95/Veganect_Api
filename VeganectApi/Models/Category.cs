@@ -16,6 +16,7 @@ namespace VeganectApi.Models
         [StringLength(50)]
         public string Name { get; set; }
 
-        public List<Recipe> Recipes = new List<Recipe>();
+        //public List<Recipe> Recipes = new List<Recipe>();
+        public List<Recipe> Recipies { get; set; }
     }
 }
